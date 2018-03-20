@@ -1,2 +1,2 @@
 # m_biz
-[demo](http://wolancy.github.io/github-say-mylove/saylove.html)
+[demo](https://wolancy.github.io/m_biz/.)
