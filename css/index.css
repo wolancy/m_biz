@@ -87,14 +87,17 @@ div{
 	color: #8d8889;
 }
 #por_bottom{
+	display: flex;
+	justify-content:center;
 	float: left;
-	height: 20px;
+	height: 5px;
+	margin-top: 17px;
+}
+#por_bot{
+	height: 5px;
+	width: 70px;
 	margin: 0;
-	font-size: 70px;
-	line-height: 20px;
-	text-align: center;
-	font-weight: bold;
-	color: #e73235;
+	background-color: #e73235;
 }
 .por_main{
 	float: left;
