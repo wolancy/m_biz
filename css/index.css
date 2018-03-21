@@ -50,7 +50,7 @@ div{
 }
 .main{
 	float: left;
-	height: 2615px;
+	height: 2925px;
 }
 .por{
 	float: left;
@@ -135,51 +135,57 @@ div{
 }
 .cus{
 	float: left;
-	height: 1295px;
+	height: 1700px;
 }
 .cus_main{
 	display: flex;
+	height: 1430px;
 	justify-content: center;
 }
 #pinpai{
 	width: 100%;
-	height: 1050px;
+	height: 1430px;
 }
 #fuzhuang{
 	float: left;
-	height: 400px;
+	height: 500px;
 	margin-top: 100px;
 	background: url(../img/fuzhuang.png) #FFFFFF no-repeat center;
-	background-size: 88% 377px;
+	background-size: 95% auto;
 	
 }
 #xie{
 	float: left;
 	width: 33.3%;
-	height: 520px;
+	height: 652px;
 	background: url(../img/xie.png) #FFFFFF no-repeat center;
+	background-size: 86% auto;
 }
 .double{
 	float: left;
 	width: 33.3%;
-	height: 520px;
+	height: 652px;
 }
 .double>div{
 	float: left;
 	width: 100%;
-	height: 260px;
+	height: 326.33px;
 }
 #shipin{
 	background: url(../img/shipin.png) #FFFFFF no-repeat center;
+	background-size: 86% auto;
 }
 #piju{
 	background: url(../img/piju.png) #FFFFFF no-repeat center;
+	background-size: 86% auto;
 }
 #jiafang{
 	background: url(../img/jiafang.png) #FFFFFF no-repeat center;
+	background-size: 86% auto;
 }
 #jiu{
 	background: url(../img/jiu.png) #FFFFFF no-repeat center;
+	background-size: 86% auto;
 }
 .foo{
 	float: left;
