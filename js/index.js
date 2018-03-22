@@ -1,3 +1,15 @@
 $(function(){
-	alert($(window).width()); 
+	//alert($(window).width()); 
+	$("#menu_main").height(window.screen.height);
+	//alert(window.screen.height);
+	//alert($(".nav").css("background-size"));
+	$(".nav").height(window.screen.width/2);
+	$("#fuzhuang").height(window.screen.width*0.95/2.3);
+	$("#xie").height(window.screen.width*0.333*0.8*2.55);
+	$(".double").height(window.screen.width*0.333*0.8*2.55);
+	$(".double>div").height(window.screen.width*0.333*0.8*2.55/2);
+	$(".foo").height(window.screen.width*0.34);
+	$("#shen_word").css("margin-top",window.screen.width*0.34/2-15);
+	$(".erweima").height(window.screen.width*0.333*0.52);
+	$(".bott_up").height($(".bott_up").height()+30);
 })
