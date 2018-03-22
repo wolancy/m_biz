@@ -9,12 +9,12 @@ div{
 }
 .top{
 	background: #e21e2e;
-	height: 100px;
+	height: 70px;
 }
 #logo{
 	float: left;
 	width: 150px;
-	height: 100px;
+	height: 70px;
 	background: url(../img/biz.png) no-repeat center;
 }
 #menu{
@@ -22,60 +22,68 @@ div{
 	background: url(../img/menu.png) no-repeat center;
 	background-size: 40px 30px;
 	width: 80px;
-	height: 100px;
+	height: 70px;
+}
+#menu_main{
+	position: fixed;
+	width: 70%;
+	background: #CCC;
+	right: 0;
+	display: none;
 }
 .nav{
-	height: 570px;
-	background: url(../img/nav.png);
-	background-size: 100% 100%;
+	display: flex;
+	background: url(../img/nav.png) no-repeat center;
+	background-size: 100% auto;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
 }
 #nav_bigword{
 	float: left;
-	height: 80px;
-	margin: 230px 0 0 0;
-	font-size: 80px;
-	line-height: 80px;
+	height: 40px;
+	font-size: 2em;
 	text-align: center;
 	color: #ffffff;
 	font-weight: bold;
 }
 #nav_smallword{
 	float: left;
-	height: 50px;
-	margin: 20px 0 0 0;
-	font-size: 50px;
-	line-height: 50px;
+	height: 30px;
+	font-size: 1.4em;
+	margin-top: 5px;
+	line-height: 30px;
 	text-align: center;
 	color: #ffffff;
 }
 .main{
+	position: relative;
 	float: left;
-	height: 2925px;
+	margin-bottom: 40px;
+	height: auto;
 }
 .por{
 	float: left;
-	height: 1220px;
+	height: 690;
 }
 .por_top{
 	float: left;
-	height: 270px;
+	height: 155px;
 	border-bottom: 1px solid #c3c0be;
 }
 #por_bigword{
 	float: left;
-	height: 58px;
-	margin: 150px 0 0 0;
-	font-size: 58px;
-	line-height: 58px;
+	height: 40px;
+	margin: 80px 0 0 0;
+	font-size: 1.9em;
 	text-align: center;
 	color: #2e2e2e;
 }
 #por_smallword{
 	float: left;
-	height: 30px;
+	height: 13px;
 	margin: 0;
-	font-size: 23px;
-	line-height: 30px;
+	font-size: 0.6em;
 	text-align: center;
 	color: #8d8889;
 }
@@ -87,20 +95,20 @@ div{
 	margin-top: 17px;
 }
 #por_bot{
-	height: 15px;
-	width: 120px;
+	height: 5px;
+	width: 70px;
 	margin: 0;
 	background-color: #e73235;
 }
 .por_main{
 	float: left;
-	height: 1000px;
+	height: 535;
 }
 .por_main>div{
-	padding-top: 150px;
+	padding-top: 60px;
 	float: left;
 	width: 50%;
-	height: 300px;
+	height: 200px;
 }
 .por_main>div>div{
 	float: right;
@@ -112,44 +120,45 @@ div{
 }
 #axiu_mig{
 	background: url(../img/aixiu.png) #FFFFFF no-repeat center;
+	background-size: auto 100%;
 }
 #yous_mig{
 	background: url(../img/youshu.png) #FFFFFF no-repeat center;
+	background-size: auto 100%;
 }
 #crm_mig{
 	background: url(../img/crm.png) #FFFFFF no-repeat center;
+	background-size: auto 100%;
 }
 #baio_mig{
 	background: url(../img/baiyou.png) #FFFFFF no-repeat center;
+	background-size: auto 100%;
 }
 .main_bigword{
-	margin: 20px 0;
-	font-size: 38px;
+	margin: 14px 0;
+	font-size: 1.4em;
 	color: #595959;
-	line-height: 28px;
 }
 .main_smallword{
-	font-size: 26px;
+	font-size: 0.9em;
 	color: #8a8a8a;
-	line-height: 18px;
 }
 .cus{
 	float: left;
-	height: 1700px;
+	height: auto;
 }
 .cus_main{
 	display: flex;
-	height: 1430px;
+	height: auto;
 	justify-content: center;
 }
 #pinpai{
 	width: 100%;
-	height: 1430px;
+	height: auto;
 }
 #fuzhuang{
 	float: left;
-	height: 500px;
-	margin-top: 100px;
+	margin-top: 50px;
 	background: url(../img/fuzhuang.png) #FFFFFF no-repeat center;
 	background-size: 95% auto;
 	
@@ -157,49 +166,47 @@ div{
 #xie{
 	float: left;
 	width: 33.3%;
-	height: 652px;
 	background: url(../img/xie.png) #FFFFFF no-repeat center;
-	background-size: 86% auto;
+	background-size: 80% auto;
 }
 .double{
 	float: left;
 	width: 33.3%;
-	height: 652px;
 }
 .double>div{
 	float: left;
 	width: 100%;
-	height: 326.33px;
 }
 #shipin{
+	margin-top: 5px;
 	background: url(../img/shipin.png) #FFFFFF no-repeat center;
-	background-size: 86% auto;
+	background-size: 80% auto;
 }
 #piju{
+	margin-top: -10px;
 	background: url(../img/piju.png) #FFFFFF no-repeat center;
-	background-size: 86% auto;
+	background-size: 80% auto;
 }
 #jiafang{
+	margin-top: 5px;
 	background: url(../img/jiafang.png) #FFFFFF no-repeat center;
-	background-size: 86% auto;
+	background-size: 80% auto;
 }
 #jiu{
+	margin-top: -10px;
 	background: url(../img/jiu.png) #FFFFFF no-repeat center;
-	background-size: 86% auto;
+	background-size: 80% auto;
 }
 .foo{
+	position: relative;
 	float: left;
-	height: 355px;
 	background: url(../img/shenqing.png) #000 no-repeat center;
 	background-size: 100% auto;
-	margin-bottom: -10px;
 }
 #shen_word{
 	float: left;
-	height: 44px;
-	margin-top: 130px;
-	font-size: 44px;
-	line-height: 44px;
+	height: 30px;
+	font-size: 1.1em;
 	color: #FFFFFF;
 	text-align: center;
 }
@@ -207,79 +214,79 @@ div{
 	display: flex;
 	justify-content:center;
 	float: left;
-	height: 55px;
-	margin-top: 25px;
+	height: 35px;
 }
 .bott{
+	position: relative;
 	float: left;
-	height: 545px;
+	height: auto;
 }
 #btn{
-	width: 235px;
-	height: 55px;
+	width: 115px;
+	height: 30px;
 	color: #FFFFFF;
 	text-align: center;
-	font-size: 28px;
-	line-height: 55px;
+	font-size: 0.9em;
+	line-height: 30px;
 	background: #ee2535;
 	border-radius: 25px;
 }
 .bott_up{
 	float: left;
-	height: 280px;
+	height: auto;
 	background: #000000;
 }
 .erweima{
 	float: left;
-	height: 235px;
-	padding-top: 85px;
 	width: 33.3%;
+	margin-top: 50px;
 }
 #youshur{
 	width: 100%;
-	height: 130px;
+	height: 100%;
 	background: url(../img/youshur.png) #000 no-repeat center;
+	background-size: 52% 100%;
 }
 #aixiur{
 	width: 100%;
-	height: 130px;
+	height: 100%;
 	background: url(../img/aixiur.png) #000 no-repeat center;
+	background-size: 52% 100%;
 }
 #guanr{
 	width: 100%;
-	height: 130px;
+	height: 100%;
 	background: url(../img/shafangr.png) #000 no-repeat center;
+	background-size: 52% 100%;
 }
 .word_bp{
 	width: 100%;
-	height: 40px;
-	line-height: 40px;
-	font-size: 26px;
+	height: 20px;
+	font-size: 0.7em;
 	color: #7a7a7a;
 	text-align: center;
 }
 .bott_dow{
 	float: left;
-	height: 265px;
+	height: 170px;
 	background: #000000;
 }
 #dow_logo{
 	height: 35px;
-	margin-top: 85px;
+	margin-top: 45px;
 	margin-bottom: 20px;
 	background: url(../img/biz.png) #000 no-repeat center;
+	background-size: 115px auto;
 }
 .dow_bigword{
-	height: 35px;
-	font-size: 26px;
+	height: 20px;
+	font-size: 0.8em;
 	text-align: center;
-	line-height: 25px;
 	color: #aeaeae;
 }
 .dow_smallword{
-	height: 35px;
-	font-size: 20px;
+	height: 18px;
+	font-size: 0.5em;
 	text-align: center;
-	line-height: 25px;
 	color: #aeaeae;
 }
