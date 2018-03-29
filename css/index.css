@@ -308,7 +308,7 @@ p{
 }
 .por_me>p{
 	width: 80%;
-	text-align: justify;
+	text-align: left;
 }
 .por_img{
 	float: left;
