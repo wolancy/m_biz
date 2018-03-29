@@ -24,8 +24,8 @@ p{
     .menu_main_con>div{font-size: 18px;}
     .close {font-size: 38px;}
     .abt_bott>div{font-size: 13px;}
-    .zhiwei_con>p{font-size: 13px;}
-    .zixun_word>p,.zixun_word>span:last-child{font-size: 12px;}
+    .zhiwei_con>p{font-size: 11px;}
+    .zixun_word>p,.zixun_word>span:last-child{font-size: 10px;}
 }
  
 @media screen and (min-width: 360px) {
@@ -41,8 +41,8 @@ p{
     .menu_main_con>div{font-size: 20px;}
     .close {font-size: 42px;}
     .abt_bott>div{font-size: 13px;}
-    .zhiwei_con>p{font-size: 15px;}
-    .zixun_word>p,.zixun_word>span:last-child{font-size: 12px;}
+    .zhiwei_con>p{font-size: 12px;}
+    .zixun_word>p,.zixun_word>span:last-child{font-size: 11px;}
 }
  
 @media screen and (min-width: 400px) {
@@ -58,7 +58,7 @@ p{
     .menu_main_con>div{font-size: 21px;}
     .close {font-size: 46px;}
     .abt_bott>div{font-size: 14px;}
-    .zhiwei_con>p{font-size: 16px;}
+    .zhiwei_con>p{font-size: 14px;}
     .zixun_word>p,.zixun_word>span:last-child{font-size: 13px;}
 }
  
@@ -75,7 +75,7 @@ p{
     .menu_main_con>div{font-size: 22px;}
     .close {font-size: 50px;}
     .abt_bott>div{font-size: 16px;}
-    .zhiwei_con>p{font-size: 18px;}
+    .zhiwei_con>p{font-size: 15px;}
     .zixun_word>p,.zixun_word>span:last-child{font-size: 14px;}
 }
  
@@ -111,8 +111,8 @@ p{
     .close {font-size: 58px;}
     .abt_bott>div{font-size: 20px;}
     .zhiwei_con>p{font-size: 22px;}
-    .zixun_word>p{font-size: 18px;}
-    ,.zixun_word>span:last-child{font-size: 17px;}
+    .zixun_word>p{font-size: 17px;}
+    ,.zixun_word>span:last-child{font-size: 16px;}
 }
 .top{
 	background: #e21e2e;
