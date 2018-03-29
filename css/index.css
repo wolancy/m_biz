@@ -21,7 +21,7 @@ p{
     .main_smallword,.por_me{font-size: 12px;}
     #shen_word{font-size: 19px;}
     #btn{font-size: 12px;}
-    .menu_main_con>div{font-size: 20px;}
+    .menu_main_con>div{font-size: 18px;}
     .close {font-size: 38px;}
     .abt_bott>div{font-size: 13px;}
     .zhiwei_con>p{font-size: 13px;}
@@ -38,7 +38,7 @@ p{
     .main_smallword,.por_me{font-size: 13px;}
     #shen_word{font-size: 22px;}
     #btn{font-size: 13px;}
-    .menu_main_con>div{font-size: 24px;}
+    .menu_main_con>div{font-size: 20px;}
     .close {font-size: 42px;}
     .abt_bott>div{font-size: 13px;}
     .zhiwei_con>p{font-size: 15px;}
@@ -55,7 +55,7 @@ p{
     .main_smallword,.por_me{font-size: 14px;}
     #shen_word{font-size: 25px;}
     #btn{font-size: 14px;}
-    .menu_main_con>div{font-size: 28px;}
+    .menu_main_con>div{font-size: 21px;}
     .close {font-size: 46px;}
     .abt_bott>div{font-size: 14px;}
     .zhiwei_con>p{font-size: 16px;}
@@ -72,7 +72,7 @@ p{
     .main_smallword,.por_me{font-size: 15px;}
     #shen_word{font-size: 28px;}
     #btn{font-size: 15px;}
-    .menu_main_con>div{font-size: 32px;}
+    .menu_main_con>div{font-size: 22px;}
     .close {font-size: 50px;}
     .abt_bott>div{font-size: 16px;}
     .zhiwei_con>p{font-size: 18px;}
@@ -89,7 +89,7 @@ p{
     .main_smallword,.por_me{font-size: 16px;}
     #shen_word{font-size: 31px;}
     #btn{font-size: 16px;}
-    .menu_main_con>div{font-size: 36px;}
+    .menu_main_con>div{font-size: 24px;}
     .close {font-size: 54px;}
     .abt_bott>div{font-size: 18px;}
     .zhiwei_con>p{font-size: 20px;}
@@ -107,7 +107,7 @@ p{
     .main_smallword,.por_me{font-size: 18px;}
     #shen_word{font-size: 34px;}
     #btn{font-size: 18px;}
-    .menu_main_con>div{font-size: 36px;}
+    .menu_main_con>div{font-size: 28px;}
     .close {font-size: 58px;}
     .abt_bott>div{font-size: 20px;}
     .zhiwei_con>p{font-size: 22px;}
@@ -304,19 +304,23 @@ p{
 	justify-content: center;
 	text-align: center;
 	color: #747271;
+	margin: 7px 0;
 }
 .por_me>p{
 	width: 80%;
+	text-align: justify;
 }
 .por_img{
 	float: left;
 	height: auto;
 }
 .poraixiu{
+	margin-top: 5px;
 	background: url(../img/poraixiu.png) #FFFFFF no-repeat center;
 	background-size: auto 100% ;
 }
 .poryoushu{
+	margin-top: 5px;
 	background: url(../img/poryoushu.png) #f6f3f1 no-repeat center;
 	background-size: auto 100% ;
 }
@@ -453,19 +457,19 @@ p{
 	width: 100%;
 	height: 100%;
 	background: url(../img/youshur.png) #000 no-repeat center;
-	background-size: 52% 100%;
+	background-size: 58% auto;
 }
 #aixiur{
 	width: 100%;
 	height: 100%;
 	background: url(../img/aixiur.png) #000 no-repeat center;
-	background-size: 52% 100%;
+	background-size: 58% auto;
 }
 #guanr{
 	width: 100%;
 	height: 100%;
 	background: url(../img/shafangr.png) #000 no-repeat center;
-	background-size: 52% 100%;
+	background-size: 58% auto;
 }
 .word_bp{
 	width: 100%;
@@ -476,25 +480,25 @@ p{
 }
 .bott_dow{
 	float: left;
-	height: 170px;
+	height: 145px;
 	background: #000000;
 }
 #dow_logo{
 	height: 35px;
 	margin-top: 45px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 	background: url(../img/biz.png) #000 no-repeat center;
-	background-size: 115px auto;
+	background-size: 100px auto;
 }
 .dow_bigword{
 	height: auto;
-	font-size: 16px;
+	font-size: 13px;
 	text-align: center;
 	color: #aeaeae;
 }
 .dow_smallword{
 	height: auto;
-	font-size: 12px;
+	font-size: 10px;
 	text-align: center;
 	color: #aeaeae;
 }
