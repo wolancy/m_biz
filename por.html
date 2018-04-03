@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="css/index.css" />
 		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
 		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-		
+
 		<script type="text/javascript" src="js/index.js"></script>
 		<title>上海商帆信息科技有限公司</title>
 	</head>
@@ -14,7 +14,7 @@
 		<div class="top">
 			<div id="logo"></div>
 			<div id="menu">
-				
+
 			</div>
 			<div id="menu_main">
 				<div id="closs">
@@ -35,7 +35,7 @@
 				一个业务体系全流通的</br>
 					整合营销工具
 			</div>
-			
+
 			<div id="shen_btn">
 				<div id="btn">
 					立即申请
@@ -52,7 +52,7 @@
 					<div>
 						一个永不离职的金牌"导购"
 					</div>
-					
+
 				</div>
 				<div class="por_me">
 					<p>随时随地掌握商品信息、与会员沟通，多样销售方式不流失任何商机；
@@ -80,7 +80,7 @@
 					图文结合直观展示商品，畅滞销商品了如指掌，为商品销售寻找提升空间。</p>
 				</div>
 				<div class="por_img poryoushu">
-					
+
 				</div>
 			</div>
 			<div class="pord_main">
@@ -99,7 +99,7 @@
 						让顾客成为CRM体系中不可或缺的部分。</p>
 				</div>
 				<div class="por_img porcrm">
-					
+
 				</div>
 			</div>
 			<div class="pord_main" style="background-color: #f6f3f1;">
@@ -116,7 +116,7 @@
 					<p>随时随地关心客户，维护客户关系，提高顾客忠诚度与复购率；极大降低服务成本，提高服务品质。</p>
 				</div>
 				<div class="por_img porbaiyou">
-					
+
 				</div>
 			</div>
 		</div>
@@ -124,7 +124,7 @@
 			<div class="bott_up">
 				<div class="erweima">
 					<div id="youshur">
-						
+
 					</div>
 					<div class="word_bp">
 						有数APP下载
@@ -132,7 +132,7 @@
 				</div>
 				<div class="erweima">
 					<div id="aixiur">
-						
+
 					</div>
 					<div class="word_bp">
 						爱秀APP下载
@@ -140,7 +140,7 @@
 				</div>
 				<div class="erweima">
 					<div id="guanr">
-						
+
 					</div>
 					<div class="word_bp">
 						商帆官方微信
@@ -149,7 +149,7 @@
 			</div>
 			<div class="bott_dow">
 				<div id="dow_logo">
-					
+
 				</div>
 				<div class="dow_bigword">
 					上海商帆信息科技有限公司
@@ -163,4 +163,26 @@
 			</div>
 		</div>
 	</body>
+	<script type="text/javascript">
+		$(function(){
+			var scroll_index = sessionStorage.getItem("scroll_index");
+			if(scroll_index == "1"){
+				$(document).scrollTop(window.screen.width*0.093+window.screen.width/2);
+				sessionStorage.removeItem("scroll_index");
+			}else if (scroll_index == "2") {
+				$(document).scrollTop(window.screen.width*0.093+window.screen.width/2+window.screen.width*1.17);
+				sessionStorage.removeItem("scroll_index");
+			}else if (scroll_index == "3") {
+				$(document).scrollTop(window.screen.width*0.093+window.screen.width/2+window.screen.width*1.17*2);
+				sessionStorage.removeItem("scroll_index");
+			}else if (scroll_index == "4") {
+				$(document).scrollTop(window.screen.width*0.093+window.screen.width/2+window.screen.width*1.17*3);
+				//$(document).scrollTop($(document).height() - $(window).height();
+				//alert($(document).height());
+				sessionStorage.removeItem("scroll_index");
+			}else if(scroll_index == "0"){
+				sessionStorage.removeItem("scroll_index");
+			}
+		});
+	</script>
 </html>
