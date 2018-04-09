@@ -1,5 +1,5 @@
 $(function(){
-	window.location.href = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? "pc_index.html" :  "index.html";
+
 	$("#menu_main").height(window.screen.height);
 	$(".top").height(window.screen.width*0.093);
 	$(".bott_menu").height(window.screen.width*0.093);
@@ -107,7 +107,7 @@ $(function(){
 		
 	});
 	$(".menu_main_con").find("div").eq(0).click(function(){
-		window.location.href = "index.html";
+		window.location.href = "mo_index.html";
 	});
 	$(".menu_main_con").find("div").eq(1).click(function(){
 		window.location.href = "dongtai.html";
