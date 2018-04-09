@@ -1,4 +1,5 @@
 $(function(){
+	window.location.href = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? "pc_index.html" :  "index.html";
 	$("#menu_main").height(window.screen.height);
 	$(".top").height(window.screen.width*0.093);
 	$(".bott_menu").height(window.screen.width*0.093);
@@ -31,7 +32,7 @@ $(function(){
 		} else{
 			$(this).find("img").attr("src","img/shouye.png");
 		}
-
+		
 	});
 	$(".menu_main_con>div").eq(1).click(function(){
 		if ($(this).find("img").attr("src") == "img/dongtai.png") {
@@ -39,7 +40,7 @@ $(function(){
 		} else{
 			$(this).find("img").attr("src","img/dongtai.png");
 		}
-
+		
 	});
 	$(".menu_main_con>div").eq(2).click(function(){
 		if ($(this).find("img").attr("src") == "img/jieshao.png") {
@@ -47,7 +48,7 @@ $(function(){
 		} else{
 			$(this).find("img").attr("src","img/jieshao.png");
 		}
-
+		
 	});
 	$(".menu_main_con>div").eq(3).click(function(){
 		if ($(this).find("img").attr("src") == "img/hezuo.png") {
@@ -55,7 +56,7 @@ $(function(){
 		} else{
 			$(this).find("img").attr("src","img/hezuo.png");
 		}
-
+		
 	});
 	$(".menu_main_con>div").eq(4).click(function(){
 		if ($(this).find("img").attr("src") == "img/guanyu.png") {
@@ -63,7 +64,7 @@ $(function(){
 		} else{
 			$(this).find("img").attr("src","img/guanyu.png");
 		}
-
+		
 	});
 	$("#menu").click(function(){
 		$("#menu_main").show();
@@ -78,7 +79,7 @@ $(function(){
 		setTimeout(function(){
 			$("#menu_main").hide();
 		},100);
-
+		
 	});
 	$(".bott_menu").parent().find(".bott").height($(".bott_menu").parent().find(".bott").height()+window.screen.width*0.09);
 	$("#us").hover(function(){
@@ -91,7 +92,7 @@ $(function(){
 		}else{
 			window.location.href = "dongtai.html";
 		}
-
+		
 	});
 	$("#huoban").hover(function(){
 		$(this).css("color","#E73235");
@@ -103,6 +104,7 @@ $(function(){
 		}else{
 			window.location.href = "dongtai.html";
 		}
+		
 	});
 	$(".menu_main_con").find("div").eq(0).click(function(){
 		window.location.href = "index.html";
@@ -111,7 +113,6 @@ $(function(){
 		window.location.href = "dongtai.html";
 	});
 	$(".menu_main_con").find("div").eq(2).click(function(){
-		sessionStorage.setItem("scroll_index","0");
 		window.location.href = "por.html";
 	});
 	$(".menu_main_con").find("div").eq(3).click(function(){
@@ -123,29 +124,4 @@ $(function(){
 	$("#btn").click(function(){
 		window.location.href = "shenqing.html";
 	});
-	$("#axiu").click(function(){
-		sessionStorage.setItem("scroll_index","1");
-		window.location.href = "por.html";
-	});
-	$("#yous").click(function(){
-		sessionStorage.setItem("scroll_index","2");
-		window.location.href = "por.html";
-	});
-	$("#crm").click(function(){
-		sessionStorage.setItem("scroll_index","3");
-		window.location.href = "por.html";
-	});
-	$("#baio").click(function(){
-		sessionStorage.setItem("scroll_index","4");
-		window.location.href = "por.html";
-	});
-
-
-
-
-
-
-
-
-
 })
